@@ -49,11 +49,12 @@ public class MainActivity extends AppCompatActivity {
         landmarkArrayList.add(colosseum);
         landmarkArrayList.add(londonBridge);
 
-        Bitmap pisaBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.pisaitaly);
+        // Bitmap pisaBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.pisaitaly);
 
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         LandmarkAdapter landmarkAdapter = new LandmarkAdapter(landmarkArrayList);
         binding.recyclerView.setAdapter(landmarkAdapter);
+
         /*
 
         // Adapter
